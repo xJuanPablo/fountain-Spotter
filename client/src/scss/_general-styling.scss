@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    background-color: $lightBackgroundColor;
+    color: $lightBackgroundTextColor;
+}
+
+
+html.dark-mode {
+    background-color: $darkBackgroundColor;
+    color: $darkBackgroundTextColor;
+}
+
+    html.light-mode {
+        background-color: $lightBackgroundColor;
+        color: $lightBackgroundTextColor;
+    }
