@@ -13,7 +13,15 @@
 
 
 ## Description
-Web application utilizing Python and React to find water fountains near the user.
+This full-stacked web application is a revised version of a [previous webpage](https://github.com/xJuanPablo/Water-Environment-Tracker) I created with some friends. Fountain Spotter allows users to look up water fountains near them. This project is a revised version of a previous webpage I created with friends. The primary goal of this website is to enhance my skills and challenge myself by incorporating Python for the backend development.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments & Credits
+I want to give special thanks to [Lucas Wysoczanski](https://github.com/LucasWyski001), [Micaella Villanueva](https://github.com/micavilla), [Daniel Lee](https://github.com/drog41813), and [ColtonSiegmund](https://github.com/ColtonSiegmund) for helping conceptualize this app's purpose and challenging me to be better. If you're reading this, please take the time to check out some of their works.
+
+Special thanks to the open-source community for their invaluable resources and tools.
 
 ## Contact
 Thank you for viewing my full-stack application. If you have any questions or would like additional information, you can email me at pabloarchuleta@gmail.com
