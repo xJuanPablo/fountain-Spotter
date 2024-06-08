@@ -1,0 +1,32 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    // background-color: #0041c2;
+    width: 100%;
+    min-height: 75px;
+
+    div{
+        position: relative;
+        p{
+            text-align: center;
+        }
+        .fountain-spotter-template-copyright{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+html.dark-mode{
+    footer{
+        background-color: #0041c2;
+        color: #fff;
+    }
+}
+html.light-mode{
+    footer {
+        background-color: #1E90FF;
+        color: #fff
+    }
+}

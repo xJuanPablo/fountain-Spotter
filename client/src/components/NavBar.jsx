@@ -1,4 +1,5 @@
 import React from 'react';
+import ThemeToggle from './ThemeToggle';
 
 function NavBar() {
     return (
@@ -9,6 +10,7 @@ function NavBar() {
                 <li><a href="">Register</a></li>
                 <li><a href="">My Fountains</a></li>
                 <li><a href="">About</a></li>
+                <ThemeToggle/>
             </ul>
         </nav>
     )

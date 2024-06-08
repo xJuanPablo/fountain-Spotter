@@ -1,11 +1,13 @@
-import ThemeToggle from "./components/ThemeToggle";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import FirstPage from "./components/FirstPage";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <ThemeToggle />
+      <FirstPage />
+      <Footer />
     </div>
   );
 }

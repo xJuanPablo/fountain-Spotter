@@ -20,6 +20,70 @@ html.light-mode {
   color: #1f2023;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.fountain-spotter-login-register-page {
+  height: calc(100vh - 75px);
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.fountain-spotter-login-register-page-div {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  width: 90%;
+  height: 60%;
+  background: rgba(35, 32, 32, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(112, 112, 122, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.fountain-spotter-login-register-page-div h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 75px;
+  top: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -175%);
+}
+
+.fountain-spotter-login-register-btn-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+.fountain-spotter-login-register-btn-div button {
+  width: 11rem;
+  height: 2.75rem;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px;
+  border: #f1f1f1 solid 3px;
+  border-radius: 15px;
+  color: #f1f1f1;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
 .NavBar {
   font-family: "Pacifico", cursive;
   height: 3.5rem;
@@ -38,12 +102,12 @@ html.light-mode {
   padding: 10px 10px;
   font-family: Arial, Helvetica, sans-serif;
   list-style: none;
-  max-width: 310px;
-  min-width: 310px;
+  max-width: 350px;
+  min-width: 350px;
   position: absolute;
   right: 10px;
 }
-@media screen and (width < 510px) {
+@media screen and (width < 550px) {
   .NavBar ul {
     display: none;
   }
@@ -54,10 +118,39 @@ html.light-mode {
 }
 
 html.light-mode .NavBar {
+  color: white;
   background-color: #1E90FF;
 }
 
 html.dark-mode .NavBar {
   color: white;
   background-color: #0041c2;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 75px;
+}
+footer div {
+  position: relative;
+}
+footer div p {
+  text-align: center;
+}
+footer div .fountain-spotter-template-copyright {
+  display: flex;
+  justify-content: center;
+}
+
+html.dark-mode footer {
+  background-color: #0041c2;
+  color: #fff;
+}
+
+html.light-mode footer {
+  background-color: #1E90FF;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
